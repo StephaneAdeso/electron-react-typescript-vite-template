@@ -1,13 +1,13 @@
 {
-    "name": "Add youre package name here",
+    "name": "add-youre-package-name-here",
     "private": true,
     "version": "0.0.0",
     "main": "dist-electron/main.js",
     "type": "module",
     "author": {
         "name": "Add youre name ",
-        "email": "Add youre email",
-        "url": "Add youre url"
+        "email": "add@youre.email",
+        "url": "https://addyoureurl.here"
     },
     "description": "Add youre description",
     "license": "MIT",
@@ -23,8 +23,11 @@
         "dist:linux": "npm run build && electron-builder --linux --x64"
     },
     "dependencies": {
+        "add-youre-name-here": "file:",
+        "add-youre-package-name-here": "file:",
         "react": "^18.3.1",
-        "react-dom": "^18.3.1"
+        "react-dom": "^18.3.1",
+        "yourenamehere": "file:"
     },
     "devDependencies": {
         "@eslint/js": "^9.15.0",
