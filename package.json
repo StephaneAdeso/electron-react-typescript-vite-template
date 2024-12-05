@@ -10,6 +10,7 @@
         "url": "Add youre url"
     },
     "description": "Add youre description",
+    "license": "MIT",
     "scripts": {
         "dev:electron": "nodemon --exec \"npm run build && electron .\"",
         "dev:ui-only": "vite",
