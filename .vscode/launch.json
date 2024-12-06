@@ -13,8 +13,7 @@
             "runtimeArgs": ["--remote-debugging-port=9223", "."],
             "windows": {
                 "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron.cmd"
-            },
-            "preLaunchTask": "task:watch"
+            }
         },
         {
             "name": "Electron: Renderer",

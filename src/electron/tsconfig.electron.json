@@ -9,6 +9,9 @@
         "outDir": "../../dist-electron",
         // ignore errors from dependencies that are not fully ready for typescript
         "skipLibCheck": true,
-        "sourceMap": true
-    }
+        "sourceMap": true,
+        "types": ["./window.d.ts"],
+        "esModuleInterop": true
+    },
+    "include": ["."]
 }

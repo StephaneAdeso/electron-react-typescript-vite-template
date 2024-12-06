@@ -15,12 +15,13 @@
         "dev:electron": "nodemon --exec \"npm run build && electron .\"",
         "dev:ui-only": "vite",
         "watch": "nodemon --exec \"npm run build\"",
-        "build": "tsc -b && vite build && tsc --project src/electron/tsconfig.electron.json",
+        "build": "npm run clean && tsc -b && vite build && tsc --project src/electron/tsconfig.electron.json",
         "lint": "eslint .",
         "preview": "vite preview",
         "dist:win": "npm run build && electron-builder --win --x64",
         "dist:mac": "npm run build && electron-builder --mac --arm64",
-        "dist:linux": "npm run build && electron-builder --linux --x64"
+        "dist:linux": "npm run build && electron-builder --linux --x64",
+        "clean": "node clean.cjs"
     },
     "dependencies": {
         "add-youre-name-here": "file:",
